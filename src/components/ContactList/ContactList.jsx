@@ -37,3 +37,5 @@ ContactList.propTypes = {
   contacts:PropTypes.array.isRequired // масив
 };
 
+// Діма Берестень
+

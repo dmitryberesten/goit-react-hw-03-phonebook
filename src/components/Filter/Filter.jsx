@@ -27,3 +27,5 @@ Filter.propTypes = {
   filter: PropTypes.string.isRequired, // рядок
   onChangeInput:PropTypes.func.isRequired // функція
 };
+
+// Діма Берестень

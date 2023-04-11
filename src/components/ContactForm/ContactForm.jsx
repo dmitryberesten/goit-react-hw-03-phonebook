@@ -57,7 +57,7 @@ export class ContactForm extends Component {
               value={this.state.number} // встановлення поточного значення поля введення, яке зберігається в стані компоненту
               type="tel"
               name="number"
-              pattern="\+?\d{1,4}?[-.\s]?\(?\d{1,3}?\)?[-.\s]?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,9}" 
+              pattern="\+?\d{1,4}?[-.\s]?\(?\d{1,3}?\)?[-.\s]?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,9}"
               title="Phone number must be digits and can contain spaces, dashes, parentheses and can start with +"
               required
             />
@@ -76,3 +76,5 @@ export class ContactForm extends Component {
 ContactForm.propTypes = {
   addContact: PropTypes.func.isRequired, // функція
 };
+
+// Діма Берестень
